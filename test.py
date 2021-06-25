@@ -15,7 +15,7 @@ print(x-y)
 # github profile upload
 # session-2
 # if else statement
-
+'''
 Marks = int(input())
 
 # if 1st number is bigger -> print("first") otherwise -> print("second")
@@ -33,4 +33,21 @@ elif(Marks<40 and Marks>=30):
     print("C division")
 else:
     print("Fail")
+
+'''
+
+# correct indent is like this
+# you need to go back to same indent for elif part.
+# elif/else part should be directly below if part.
+marks = int(input())
+if(marks<100 and marks>=90):
+    print("A division")
+elif(marks<90 and marks>=80):
+    print("B division")
+elif(marks<80 and marks>=60):
+    print("C division")
+elif(marks<60 and marks>=40):
+    print("D division")
+else:
+    print("fail")
     
